@@ -5,6 +5,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'record_tag_helper'
 gem 'monban'
 gem 'monban-generators'
 gem 'rails', '~> 5.0.2'
@@ -15,6 +16,7 @@ group :assets do
   gem 'sass-rails', '~> 5.0'
   gem 'uglifier', '>= 1.3.0'
   gem 'coffee-rails', '~> 4.2'
+  gem 'sass', '~> 3.4', '>= 3.4.22' 
 end
 
 gem 'jquery-rails'
