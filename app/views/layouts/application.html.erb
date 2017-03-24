@@ -20,6 +20,8 @@
     </div>
     <% if alert %>
       <p><%= alert %></p>
+    <% elsif notice %>
+      <p><%= notice %></p>
     <% end %>
     <%= yield %>
   </body>
