@@ -1,7 +1,7 @@
 class FollowingRelationshipsController < ApplicationController
   def create
     current_user.follow user
-    redirect_to user, notice: 'No following user'
+    redirect_to user, notice: 'Now following user'
   end
 
   def destroy
