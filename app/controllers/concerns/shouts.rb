@@ -1,6 +1,6 @@
 module Shouts
   extend ActiveSupport::Concern
-  def save_shout
+  def save_shout shout
     shout = current_user.shouts.build(content: shout)
     if shout.save
       redirect_to dashboard_path
