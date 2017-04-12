@@ -1,24 +1,18 @@
-# README
+### Shouter
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Twitter like app developed in Ruby on Rails. This app has features such as shouts(tweets), following system and many more features.
 
-Things you may want to cover:
+## Technology Stack
+- Ruby on Rails
+- Sqlite Database
 
-* Ruby version
+## How to setup?
+- Clone this project on your machine.
+- Run `bundle install`
+- Run `rake db:migrate`
 
-* System dependencies
+## How to test ?
+Simply fire `rake test` to run all tests. You can also run individual tests by specifying test file name.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## License
+This project is available under MIT license.
